@@ -5,3 +5,4 @@ pip3 freeze | grep -v -E 'setuptools|pip' | xargs pip3 uninstall -y
 python3 -m ensurepip
 
 pip3 install numpy
+pip3 install torch
