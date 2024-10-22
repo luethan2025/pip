@@ -5,7 +5,8 @@ pip3 freeze | grep -v -E 'setuptools|pip' | xargs pip3 uninstall -y
 python3 -m ensurepip
 
 pip3 install numpy
-pip3 install torch
+pip3 install torch torchvision
 pip3 install scikit-learn
 pip3 install scipy
 pip3 install matplotlib
+pip3 install opencv-python
