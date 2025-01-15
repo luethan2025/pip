@@ -24,6 +24,9 @@ if [ "$clear_cache" = true ]; then
   if [[ "$(uname -s)" == "Darwin" ]]; then
     echo "rm -rf ~/Library/Caches/pip"
     rm -rf ~/Library/Caches/pip
+
+    echo "rm -rf ~/nltk_data"
+    rm -rf ~/nltk_data
   else
     echo "Could not remove cache for non-macOS device"
     echo "Skipping..."
