@@ -43,4 +43,4 @@ pip3 install matplotlib
 pip3 install opencv-python
 pip3 install ipykernel
 pip3 install nltk && \
-  python3 -c "import nltk; nltk.download('punkt');"
+  python3 -c "import nltk; nltk.download('punkt'); nltk.download('wordnet');"
