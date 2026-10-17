@@ -10,4 +10,5 @@ pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu12
 pip3 install torchcodec
 
 pip3 install nerfstudio
+pip3 install huggingface_hub
 pip3 install yt-dlp[default]
